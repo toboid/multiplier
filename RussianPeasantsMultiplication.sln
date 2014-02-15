@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Multiplier", "RussianPeasantsMultiplication\Multiplier.csproj", "{D899324E-33E5-45F4-B55B-345A6C29F136}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Multiplier", "Multiplier\Multiplier.csproj", "{D899324E-33E5-45F4-B55B-345A6C29F136}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiplierTests", "RussianPeasantsTests\MultiplierTests.csproj", "{68784DE4-C5F4-46BB-A7B8-EAC508EB514A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiplierTests", "MultiplierTests\MultiplierTests.csproj", "{68784DE4-C5F4-46BB-A7B8-EAC508EB514A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
