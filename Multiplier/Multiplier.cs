@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Diagnostics;
 
 namespace Multiplier
 {
@@ -6,6 +7,8 @@ namespace Multiplier
     {
         public int Multiply(int first, int second)
         {
+            Debug.Assert(first > 0 && second > 0, "Parameters must be a value greater than 0");
+
             var total = 0;
 
             while (true)
