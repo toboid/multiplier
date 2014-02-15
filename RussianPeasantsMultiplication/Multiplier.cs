@@ -9,18 +9,17 @@ namespace RussianPeasantsMultiplication
     {
         public int Multiply(int first, int second)
         {
-            var numbers = new Dictionary<int, int>();
+            var total = 0;
 
             while (true)
             {
-                if (first % 2 != 0) { numbers.Add(first, second); }
+                if (first % 2 != 0) { total += second; }
                 if (first == 1) { break; }
 
-                first = (int)Math.Floor(first / 2.0);
-                second = second * 2;
+                first = (int)Math.Floor(first / 2D);
+                second += second;
             }
   
-            var total = numbers.Values.Aggregate((sum, val) => sum + val);
             return total;
         }
     }

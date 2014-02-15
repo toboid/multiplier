@@ -28,6 +28,5 @@ namespace RussianPeasantsTests
             var expected = first*second;
             Assert.AreEqual(expected, multiplier.Multiply(first, second), "Multiplier returned incorrect answer");
         }
-
     }
 }
