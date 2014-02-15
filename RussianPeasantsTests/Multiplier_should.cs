@@ -1,17 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using NUnit.Framework;
-using RussianPeasantsMultiplication;
+﻿using NUnit.Framework;
 
-namespace RussianPeasantsTests
+namespace MultiplierTests
 {
     [TestFixture]
-    public class MultiplierTestShould
+    public class Multiplier_should
     {
-        private readonly Multiplier multiplier = new Multiplier();
+        private readonly Multiplier.Multiplier multiplier = new Multiplier.Multiplier();
         
         [TestCase(1,1, Result = 1)]
         [TestCase(2, 2, Result = 4)]
