@@ -50,7 +50,7 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\RussianPeasantsMultiplication\Multiplier.csproj">
+    <ProjectReference Include="..\Multiplier\Multiplier.csproj">
       <Project>{d899324e-33e5-45f4-b55b-345a6c29f136}</Project>
       <Name>Multiplier</Name>
     </ProjectReference>
